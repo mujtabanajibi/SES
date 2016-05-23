@@ -1,0 +1,25 @@
+﻿
+Check whether the received xml file is test mode or logging
+
+if mode is test
+
+	check if sender is saved 
+		then check if devices or gsmmodule is saved or not
+			if saved and matched then return 0
+			else if not save and not matched then save devices or gsmmodule data
+
+	else not available then
+	    then save the sender, device, gsmmodule data to their respective tables
+
+else if mode is normal
+	then compare the sender, device and Gsmmodule to their respective tables
+		if all matched then
+			then check assets table 
+				if device is allocaten then 
+
+				else
+					do nothing
+		else not matched then
+			sends the device a test command to reconfigure the sender, device, gsmmodule
+
+

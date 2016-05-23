@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sender ID="1e3" Mode="Normal" Model="2342" BatteryLevel="95" Charging="1" WifiSignal="34">
+  <!--normal, testing-->
+  <GSMModules>
+    <GSMModule SIMNo="03003509231" IMEI="234243234" model="sim900a"
+               ServiceProvider="Ufone" SignalStrength="30" PING="123">
+      <SMS MsgRecievedFrom="1" Message="12" MsgRecievedDateTime="2002-05-30T09:00:f00" />
+    </GSMModule>
+    <GSMModule SIMNo="03333936974" IMEI="5344113234" model="sim900a"
+               ServiceProvider="Ufone" SignalStrength="30" PING="11">
+      <SMS MsgRecievedFrom="2" Message="444" MsgRecievedDateTime="2002-05-30T09:00:f00" />
+
+      <SMS MsgRecievedFrom="2" Message="444" MsgRecievedDateTime="2002-05-30T09:00:f00" />
+
+      <SMS MsgRecievedFrom="2" Message="444" MsgRecievedDateTime="2002-05-30T09:00:f00" />
+
+      <SMS MsgRecievedFrom="2" Message="444" MsgRecievedDateTime="2002-05-30T09:00:f00" />
+    </GSMModule>
+  </GSMModules>
+  <Devices>
+    <Device ID="1" Model="233212" SamplesInterval="30" UpdateInterval="1" >
+      <Parameters>
+        <!--defining the event is raised or not-->
+        <Parameter DateTime="2016-04-18T3:00:f00" Event="0">
+          <Channel Name="1" Value="96"/>
+          <Channel Name="2" Value="23,43,223,422"/>
+          <Channel Name="3" Value="900"/>
+          <Channel Name="4" Value="1"/>
+          <Channel Name="5" Value="800"/>
+        </Parameter>
+        <Parameter DateTime="2016-04-18T3:00:f30" Event="0">
+          <Channel Name="1" Value="23,43,223,422"/>
+          <Channel Name="2" Value="900"/>
+          <Channel Name="3" Value="1"/>
+          <Channel Name="4" Value="800"/>
+        </Parameter>
+      </Parameters>
+    </Device>
+  </Devices>
+</Sender>
+
