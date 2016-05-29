@@ -1,7 +1,7 @@
 ﻿
 Check whether the received xml file is test mode or logging
 
-open database connection //
+open database connection
 
 if mode is test
 
