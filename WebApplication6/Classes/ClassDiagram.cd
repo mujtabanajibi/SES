@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebApplication6.Device">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAACAAwAAAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>Classes\Hardware\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Parameter">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAQA=</HashCode>
+      <FileName>Classes\Hardware\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Channel">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Hardware\Channel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.GSMModule">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAAAAAAAAAAAAAAAAAAAIAAAASggAAAAACA=</HashCode>
+      <FileName>Classes\Hardware\GSMModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.SMS">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAACIAAAAQA=</HashCode>
+      <FileName>Classes\Hardware\SMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Sender">
+    <Position X="4" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAgABAAAAAAEAAAAAQAACAEEiCAAAgAAA=</HashCode>
+      <FileName>Classes\Hardware\Sender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.Asset">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAIAgAAAAAACAAQAAAAAAAAEAAgAEAQAAIQ=</HashCode>
+      <FileName>Classes\Software\Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.AssetAlarm">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIEAAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAACA=</HashCode>
+      <FileName>Classes\Software\AssetAlarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.AssetDetail">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Software\AssetDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.AssetRequiredFields">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Software\AssetRequiredFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.AssetType">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Classes\Software\AssetType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.ChannelDataValidation">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAIAAAgAIAAAAAAAAACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Software\ChannelDataValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.ChannelsSetting">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAIAAAAAKAACAAQIAAABAAAAAAAgAAAAgQA=</HashCode>
+      <FileName>Classes\Software\ChannelsSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.ClientProfile">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAggAAAAAAAAAAAAwAAAAADAQAAgAAAAAE=</HashCode>
+      <FileName>Classes\Software\ClientProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.ConfigurableModels">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Software\ConfigurableModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApplication6.Classes.Software.Model">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABggAAAAAAAAAQAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Classes\Software\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WebApplication6.Mode">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Classes\Hardware\Mode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

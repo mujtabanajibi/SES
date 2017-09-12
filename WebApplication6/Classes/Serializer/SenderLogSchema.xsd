@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Sender">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="GSMModules">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="GSMModule">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SMS">
+                      <xs:complexType>
+                        <xs:attribute name="MsgRecievedFrom" type="xs:unsignedShort" use="required" />
+                        <xs:attribute name="Message" type="xs:string" use="required" />
+                        <xs:attribute name="MsgRecievedDateTime" type="xs:dateTime" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="SIMNo" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="IMEI" type="xs:unsignedLong" use="required" />
+                  <xs:attribute name="model" type="xs:string" use="required" />
+                  <xs:attribute name="ServiceProvider" type="xs:string" use="required" />
+                  <xs:attribute name="SignalStrength" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="PING" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Devices">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Device">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameters">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Parameter">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="Channel">
+                                  <xs:complexType>
+                                    <xs:attribute name="Name" type="xs:unsignedByte" use="required" />
+                                    <xs:attribute name="Value" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="DateTime" type="xs:string" use="required" />
+                              <xs:attribute name="Event" type="xs:unsignedByte" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="Model" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="SamplesInterval" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="UpdateInterval" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="ID" type="xs:float" use="required" />
+      <xs:attribute name="Mode" type="xs:string" use="required" />
+      <xs:attribute name="Model" type="xs:unsignedShort" use="required" />
+      <xs:attribute name="BatteryLevel" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="Charging" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="WifiSignal" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

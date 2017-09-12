@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sender ID="1e3" Mode="Test" Model="2342" BatteryLevel="95" Charging="1" WifiSignal="34">
+  <!--normal, testing-->
+  <GSMModules>
+    <GSMModule SIMNo="03003509231" IMEI="234243234" model="sim900a"
+               ServiceProvider="Ufone" SignalStrength="30" PING="123"/>
+    <GSMModule SIMNo="03333936974" IMEI="532444113234" model="sim900a"
+               ServiceProvider="Ufone" SignalStrength="30" PING="OK"/>
+  </GSMModules>
+  <Devices>
+    <Device ID="1" Model="233212" SamplesInterval="34" UpdateInterval="1" />
+    <Device ID="1s" Model="233212" SamplesInterval="34" UpdateInterval="1" />
+  </Devices>
+</Sender>
+

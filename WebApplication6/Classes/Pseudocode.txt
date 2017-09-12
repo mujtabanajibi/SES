@@ -1,0 +1,36 @@
+﻿
+Check whether the received xml file is test mode or logging
+
+open database connection
+
+if mode is test
+
+	if sender is saved 
+
+		if devices(ID) or gsmmodules(sim) are saved with their sender id
+			if all fields are not matched then update it	
+
+		else if devices or gsmmodules are saved without their sender id update its sender ID with new one
+			if all fields are not matched then update it
+
+		else devices or gsmmodules are not saved 
+			then save devices(ID) or gsmmodules(sim), and their fields
+
+	else not saved then
+	     save the sender, device, gsmmodule data to their respective tables
+
+else if mode is normal
+
+	if sender(ID), device(ID, model) and gsmmodule(SimNo) are saved
+
+		if device is allocated in assets table then
+
+				if it is channel data validated 
+					then save it in the logging table
+
+				else log the error in the error log table
+				
+	else 
+		sends the device a test command to reconfigure the sender, device, gsmmodule
+
+close connection
